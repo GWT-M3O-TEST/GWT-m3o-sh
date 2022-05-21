@@ -30,7 +30,7 @@ jobs:
         
         run: |
           # sync the examples to m3o-sh/examples
-          rsync -avz examples/go/ ../m3o-sh/examples/
+          rsync -avz examples/curl/ ../m3o-sh/examples/
 
       - name: Add & Commit
         uses: EndBug/add-and-commit@v9.0.0
